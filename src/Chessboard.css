@@ -1,3 +1,22 @@
 .Chessboard {
+  display: flex;
+  flex-direction: column;
+}
 
+.ChessRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.ChessSquare {
+  border: 1px solid black;
+}
+
+.ChessSquare, .ChessSquare > img {
+  width: 30px;
+  height: 30px;
+}
+
+.ChessSquare.black {
+  background-color: #777;
 }
